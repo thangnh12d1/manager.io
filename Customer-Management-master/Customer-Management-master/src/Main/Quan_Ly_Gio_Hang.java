@@ -100,10 +100,10 @@ public class Quan_Ly_Gio_Hang
                 }
                 
             }
-            System.out.print("What do you want to buy more: ");
+            System.out.println("What do you want to buy more: ");
             System.out.println();
-            System.out.print("1. Yes ");  
-            System.out.print("2. No ");
+            System.out.println("1. Yes ");  
+            System.out.println("2. No ");
             int b = Input.Active(2);
             switch(b)
             {
@@ -115,7 +115,7 @@ public class Quan_Ly_Gio_Hang
         
 
         
-// Creat new Khach_Hang by input information        
+// Create new Gio_Hang by input information        
         Gio_Hang kh = new Gio_Hang(id,listProduct);
         int billCart = 0;
         billCart = calBill(kh);
