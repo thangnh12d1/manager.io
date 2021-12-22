@@ -32,7 +32,9 @@ public class Quan_Ly_Gio_Hang
             case 3 : {Delete(); break;}
             case 4 : {Find(); break;}
             case 5 : {Output_File(); break;}
-            
+            case 6 : {break;}  
+            default:
+                break;
         }     
     }
 
